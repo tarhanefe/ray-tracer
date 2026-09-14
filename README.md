@@ -52,3 +52,7 @@ sips -s format png output.ppm --out output.png
 ```
 
 The full final render is slow in pure Python. For a quick preview, lower `width` and `samples_per_pixel` in `print_ppm()` in `final_out.py` (for example `width = 400`, `samples_per_pixel = 50`).
+
+## References
+
+- Peter Shirley, Trevor David Black and Steve Hollasch. [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html).
