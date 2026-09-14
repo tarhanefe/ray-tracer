@@ -16,7 +16,6 @@ A Python implementation of [_Ray Tracing in One Weekend_](https://raytracing.git
 - Anti-aliasing with multiple random samples per pixel
 - Gamma correction
 - Rendering in parallel across CPU cores with `multiprocessing`
-- A bounding volume hierarchy (BVH) to speed up ray–scene intersection (from the next book in the series, [_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html))
 
 ## Project structure
 
@@ -24,7 +23,7 @@ A Python implementation of [_Ray Tracing in One Weekend_](https://raytracing.git
 |---|---|
 | `vec3.py` | `Vec3` vector class and random disk sampling |
 | `ray.py` | `Ray` — origin, direction and `at(t)` |
-| `hitable.py` | `HitRecord`, `Sphere`, `HittableList` and the BVH |
+| `hitable.py` | `HitRecord`, `Sphere` and `HittableList` |
 | `material.py` | `Lambertian`, `Metal` and `Dielectric` materials |
 | `camera.py` | Camera with field of view and defocus blur |
 | `ppm_out.py` | Small scene: three spheres with defocus blur |
